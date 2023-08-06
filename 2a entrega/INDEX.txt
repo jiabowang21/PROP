@@ -1,0 +1,1 @@
+Tota la documentació i les classes de les diferents capes del projecte han estat elaborades seguint les indicacions donades.

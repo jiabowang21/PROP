@@ -1,0 +1,10 @@
+Grup: 5.3
+Subgrup de laboratori: 22
+Lliurament: 2on
+Versió: 2.0
+Data de lliurament: 15/12/2021
+Integrants del grup:
+- Pau Antonio Soler (pau.antonio@estudiantat.upc.edu)
+- Oriol Deiros Tort (oriol.deiros@estudiantat.upc.edu)
+- Héctor Godoy Creus (hector.godoy@estudiantat.upc.edu)
+- Jiabo Wang (jiabo.wang@estudiantat.upc.edu)
