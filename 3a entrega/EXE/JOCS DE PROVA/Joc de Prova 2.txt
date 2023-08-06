@@ -1,0 +1,41 @@
+Joc de prova 2
+Descripció: Cas d'ús de recomanació d'ítems a un usuari mitjançant Collaborative Filtering (CF).
+Objectiu: provar que la recomanació usant l'estratègia CF funciona.
+Elements integrats a la prova: EstrategiaRecomanacio (domini), DistClient (domini), ConjuntRecomanacions (domini), CtrlRecomanacio (domini), Recomanacio (domini), Valoracio (domini), CtrlValoracio (domini), Item (domini), CtrlItems (domini), Item (domini), TipusItem (domini), Atribut (domini), VistaRecomanacionsUsuari (presentació), CtrlPersistencia (persistència) i FileIO (persistència).
+Fitxers utilitzats en la prova: movielens 250 "items.csv" i "ratings.db.csv"
+Descripció de l'estat/escenari del sistema: Es carrega el sistema amb un volum "petit" d'ítems i valoracions (250 items i aproximadament 52000 valoracions) de la carpeta movielens 250.
+Input: Inicialment, a la vista d’iniciar sessió, se selecciona el menú de barres “Fitxer” i se selecciona l’opció “Carregar dades de fitxer…” i es carreguen les dades movielens 250. 
+A continuació es crea un nou usuari, s’inicia sessió, es fa una sèrie de valoracions d’ítems (no buides) en la vista Principal Usuari. Un cop fetes les valoracions, se selecciona el menú de barres “Usuari” i se selecciona l’opció “Recomanacions” i es redirecciona a la vista Recomanacions Usuari, on s’ha de seleccionar com a mètode de recomanació “Collaborative” i finalment prémer el botó “Generar”.
+- Valors d'entrada:
+   Perfil usuari creat (usuari: "Jiabo" / contrasenya: “123”)
+   Usuari a recomanar: “Jiabo”
+   Valoracions fetes:
+	Item amb ID: 1909 (Don Juan DeMarco), valoració: 3.7
+	Item amb ID: 628 (Interview with the Vampire), valoració: 3.7
+	Item amb ID:  527 (Once Were Warriors), valoració: 4.8
+Output: s’ha obtingut una llista ordenada de les 10 millors recomanacions per l’usuari “Jiabo”. 
+- Valors de sortida:
+Item amb ID: 1278 (The Dreamers)
+Item amb ID: 8665 (K-19: The Widowmaker)
+Item amb ID: 318 (The Million Dollar Hotel)
+Item amb ID: 5618 (Cousin, Cousine)
+Item amb ID: 912 (The Thomas Crown Affair)
+Item amb ID: 2324 (Local Color)
+Item amb ID: 48780 (Boat)
+Item amb ID: 858 (Sleepless in Seattle)
+Item amb ID: 74458 (Mere Brother Ki Dulhan) 
+Item amb ID: 1246 (License to Wed)
+Resultat: Correcte, ja que de les recomanacions obtingudes podem veure que la major tenen a veure amb els ítems que hem valorat, en aquest cas, depèn també de les valoracions que hagin fet els altres usuaris del sistema.
+(pel·lícula valorada) Don Juan DeMarco: Romance;Drama;Comedy
+(pel·lícula valorada) Interview with the Vampire: Horror;Romance
+(pel·lícula valorada) Once Were Warriors: Drama
+(pel·lícula recomanada) The Dreamers: Drama;Romance
+(pel·lícula recomanada) K-19: The Widowmaker: Drama;History;Thriller
+(pel·lícula recomanada) The Million Dollar Hotel: Drama;Thriller
+(pel·lícula recomanada) Cousin, Cousine: Romance;Comedy
+(pel·lícula recomanada) The Thomas Crown Affair: Romance;Crime;Thriller;Drama
+(pel·lícula recomanada) Local Color: Drama
+(pel·lícula recomanada) Boat: Foreign
+(pel·lícula recomanada) Sleepless in Seattle: Comedy;Drama;Romance
+(pel·lícula recomanada) Mere Brother Ki Dulhan: Drama;Comedy;Romance
+(pel·lícula recomanada) License to Wed: Comedy

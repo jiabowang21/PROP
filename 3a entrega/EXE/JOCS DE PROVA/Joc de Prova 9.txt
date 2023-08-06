@@ -1,0 +1,15 @@
+Joc de prova 9
+Descripció: Cas d'ús on es registra un usuari
+Objectiu: provar que es pot registrar un usuari correctament
+Elements integrats a la prova: CtrlPresentacio, VistaIniciarSessio (Presentació), VistaRegistrarUsuari (Presentació), CtrlDomini, CtrlUsuari (Domini), Client (Domini)
+Fitxers utilitzats en la prova: cap
+Descripció de l'estat/escenari del sistema: S’ha registrat prèviament un usuari “pau” amb contrasenya “123”
+Input: Es prem al botó de “Crear usuari”, s’indica l’usuari i la contrasenya amb què es vol crear i es clica al botó de “Crear usuari”. Introduïm un altre cop les credencials a la pestanya d’iniciar sessió, per tal de comprovar que s’ha creat correctament, i cliquem a “Iniciar sessió”
+Valors d’entrada: 
+	Usuari: “pau”
+	Contrasenya: “123”
+	Repetir contrasenya: “123”
+	Usuari: “pau”
+	Contrasenya: “123”
+Output: Després de crear l’usuari, el sistema mostra un avís indicant que l’usuari s’ha registrat correctament. Redirigeix a la pestanya d’iniciar sessió, on funciona correctament.
+Resultat: Correcte, es registra l’usuari i s’inicia sessió amb aquest sense cap incidència

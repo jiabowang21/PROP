@@ -1,0 +1,12 @@
+Joc de prova 13
+
+Descripció: Cas d'ús on es desen les dades del sistema
+Objectiu: provar que l’estat del sistema es desa correctament
+Elements integrats a la prova: CtrlPresentacio, CtrlDomini, CtrlUsuari (Domini), CtrlRecomanacions (Domini),
+	CtrlValoracions (Domini), CtrlItems (Domini)
+Fitxers utilitzats en la prova: users.csv, items.csv, recommendations.csv, ratings.db.csv
+Descripció de l'estat/escenari del sistema: El sistema té creats usuaris, un conjunt d’ítems, valoracions i recomanacions.
+Input: Es prem al botó “Fitxer” a la barra superior, i seleccionem l’opció “Desar estat del sistema”.
+Output: Després de desar les dades, es mostra el missatge “Dades guardades correctament”
+Resultat: Correcte, es creen els fitxers al mateix lloc des d’on s’havien carregat, i si s’ha iniciat el sistema 
+	des de zero, al subdirectori “data” dins el directori de treball.

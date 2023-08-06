@@ -1,0 +1,43 @@
+Joc de prova 3
+Descripció: Cas d'ús de recomanació d'ítems a un usuari mitjançant l’algorisme híbrid.
+Objectiu: provar que la recomanació usant l'estratègia híbrida funciona.
+Elements integrats a la prova: EstrategiaRecomanacio (domini), DistItem (domini), DistClient (domini), DistItem (domini), ConjuntRecomanacions (domini), CtrlRecomanacio (domini), Recomanacio (domini), Valoracio (domini), CtrlValoracio (domini), Item (domini), CtrlItems (domini), Item (domini), TipusItem (domini), Atribut (domini), VistaRecomanacionsUsuari (presentació), CtrlPersistencia (persistència) i FileIO (persistència).
+Fitxers utilitzats en la prova: movielens 750 "items.csv" i "ratings.db.csv"
+Descripció de l'estat/escenari del sistema: Es carrega el sistema amb un volum "mitjà" d'ítems i valoracions (750 items i aproximadament 211717 valoracions) de la carpeta movielens 750.
+Input: Inicialment a la vista de iniciar sessió, es selecciona el menú de barres “Fitxer” i es selecciona l’opció “Carregar dades de fitxer…” i es carreguen les dades movielens 750. 
+A continuació es crea un nou usuari, s’inicia sessió, es fa una serie de valoracions d’ítems (no buides) en la vista Principal Usuari. Un cop fetes les valoracions, es selecciona el menú de barres “Usuari” i es selecciona l’opció “Recomanacions” i es redirecciona a la vista Recomanacions Usuari, on s’ha de seleccionar com a mètode de recomanació “Content Based” i finalment prémer el botó “Generar”.
+- Valors d'entrada:
+   Perfil usuari creat (usuari: "Jiabo" / contrasenya: “123”)
+   Usuari a recomanar: “Jiabo”
+  Valoracions fetes:
+	Item amb ID: 11 (Star Wars), valoració: 5
+	Item amb ID: 329 (Jurassic Park), valoració: 4
+	Item amb ID:  426 (Vertigo), valoració: 3.4
+	Item amb ID: 454 (Romeo + Juliet), valoració 3.9
+Output: s’ha obtingut una llista ordenada de les 10 millors recomanacions per l’usuari “Jiabo”. 
+- Valors de sortida:
+Item amb ID: 965 (The Magnificent Ambersons)
+Item amb ID: 1892 (Return of the Jedi)
+Item amb ID: 3089 (Red River)
+Item amb ID: 1894 (Star Wars: Episode II - Attack of the Clones)
+Item amb ID: 1895 (Star Wars: Episode III - Revenge of the Sith)
+Item amb ID: 3030 (End of the World)
+Item amb ID: 1248 (Hannibal Rising)
+Item amb ID: 28 (Apocalypse Now)
+Item amb ID: 290 (Barton Fink) 
+Item amb ID: 8914 (Deep Blue Sea)
+Resultat: Correcte, ja que de les recomanacions obtingudes podem veure que la major tenen a veure amb els ítems que hem valorat.
+(pel·lícula valorada) Star Wars: Adventure;Action;Science Fiction
+(pel·lícula valorada) Jurassic Park: Adventure;Science Fiction
+(pel·lícula valorada) Vertigo: Mystery;Romance;Thriller
+(pel·lícula valorada) Romeo + Juliet: Drama;Romance
+(pel·lícula recomanada) The Magnificent Ambersons: Romance;Drama
+(pel·lícula recomanada) Return of the Jedi: Adventure;Action;Science Fiction
+(pel·lícula recomanada) Red River: Western
+(pel·lícula recomanada) Star Wars: Episode II - Attack of the Clones: Adventure;Science Fiction; Action
+(pel·lícula recomanada) Star Wars: Episode III - Revenge of the Sith: Science Fiction; Adventure;Action
+(pel·lícula recomanada) End of the World: Fantasy;Thriller;Science Fiction
+(pel·lícula recomanada) Hannibal Rising: Crime;Drama;Thriller
+(pel·lícula recomanada) Apocalypse Now: Drama;War
+(pel·lícula recomanada) Barton Fink: Comedy;Drama
+(pel·lícula recomanada) Deep Blue Sea: Action;Science Fiction;Thriller

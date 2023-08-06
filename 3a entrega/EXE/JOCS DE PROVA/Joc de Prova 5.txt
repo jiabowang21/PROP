@@ -1,0 +1,52 @@
+Joc de prova 5
+Descripció: Cas d'ús on es gestiona un conjunt d'ítems qualsevol
+Objectiu: provar que es poden modificar els ítems dinàmicament.
+Elements integrats a la prova: CtrlPresentacio, VistaManagementItems (Presentació), VistaDefinirAtributs (Presentació), VistaAfegirItem (Presentació), VistaEditarItems (Presentació), VistaEliminarItems (Presentació), CtrlDomini, CtrlItems (Domini), Item (Domini), TipusItem (Domini), Atribut (Domini), AtribBoolea (Domini), AtribNumeric (Domini), AtribCategoric (Domini).
+Fitxers utilitzats en la prova: cap
+Descripció de l'estat/escenari del sistema: No existeix cap usuari, excepte de l’usuari per defecte amb permisos d’administrador: admin. Tampoc existeix cap item.
+Input: Iniciem sessió amb usuari i contrasenya: admin:admin.
+Seguidament obrim la finestra de Management d’items, a través del menú superior: ‘Administrar’->’Items’.
+Podem veure com les tres opcions de la part inferior de la finestra no es troben disponibles, ja que primer cal definir els atributs del conjunt. Així que pitgem sobre el botó: Definir Atributs.
+En la nova finestra seleccionem el següent input:
+Atribut i nom:
+Atribut Booleà: bool1
+Atribut Booleà: bool2
+Atribut Numèric: num1
+Atribut Numèric: num2
+Atribut Categòric: cat1
+Atribut Categòric: cat2
+A continuació confirmem els atributs i en tornar a la finestra de management d’items obrim la finestra Afegir Items, emmarcada amb el símbol de +.
+Carreguem els atributs i introduim el següent input: (2 items)
+Atribut i valor:
+ITEM1: (id = 0)
+bool1: true
+bool2: true
+num1: 15
+num2: 54441
+cat1: hola bona tarda
+cat2: soc un atribut categoric molt amable
+
+ITEM2: (id = 1)
+bool1: false
+bool2: true
+num1: 114
+num2: 123412341234
+cat1: siusplau posa’ns un 10
+cat2: porfis hem treballat;molt
+Notar que l’últim atribut del Ítem 2 té un separador de valors ‘;’. Això és per testejar la funcionalitat que ens ofereix l’aplicació de tenir més d’un valor en un atribut categòric.
+Ara després d’afegir els dos ítems, tanquem la finestra i pitgem sobre el botó amb un llapis, anomenat ‘Editar Item’. 
+Carreguem l’item amb identificador ‘0’. Que és el primer que hem afegit al conjunt, i canviem els seguents valors:
+Nom i nou valor:
+bool2: false
+num1: 23
+A l’item amb identificador ‘1’. Canviem:
+Nom i nou valor:
+num2: 3
+cat2: asdfasdfasdf
+
+Per últim, tanquem aquesta finestra i ens dirigim a la opció amb el símbol ‘-’, amb el label: Eliminar Ítem.
+Seleccionem l’ítem amb identificador ‘0’ i confirmem la eliminació.
+Output: Només n’ha quedat un item, si tanquem sessió i creem un usuari normal qualsevol, podrem veure que només ens deixa valorar aquest item amb identificador ‘1’. 
+Si pitgem sobre el botó ‘Informació’ podrem veure la informació que hem introduit i posteriorment modificat de l’ITEM2:
+
+Resultat: Correcte, només ha quedat un sol ítem després d’eliminar l’item amb identificador ‘0’ i els valors modificats correctament.

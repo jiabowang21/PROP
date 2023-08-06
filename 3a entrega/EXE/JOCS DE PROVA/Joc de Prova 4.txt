@@ -1,0 +1,18 @@
+Joc de prova 4
+Descripció: Cas d'ús d’avaluació de la qualitat de les recomanacions
+Objectiu: provar que l’avaluació de la qualitat de les recomanacions funciona.
+Elements integrats a la prova: EstrategiaRecomanacio (domini), DistItem (domini), ConjuntRecomanacions (domini), CtrlRecomanacio (domini), Recomanacio (domini), Valoracio (domini), CtrlValoracio (domini), Item (domini), CtrlItems (domini), Item (domini), TipusItem (domini), Atribut (domini), CtrlPersistencia (persistència), FileIO (persistència), VistaRecomanacionsUsuari (presentació) i VistaManagementRecomanacions (presentació).
+Fitxers utilitzats en la prova: movielens 250 "items.csv" i "ratings.db.csv"
+Descripció de l'estat/escenari del sistema: Es carrega el sistema amb un volum "petit" d'ítems i valoracions (250 items i aproximadament 52000 valoracions) de la carpeta movielens 250.
+Input: Inicialment, a la vista d’iniciar sessió, se selecciona el menú de barres “Fitxer” i se selecciona l’opció “Carregar dades de fitxer…” i es carreguen les dades movielens 250. 
+A continuació es crea un nou usuari, s’inicia sessió, es fa una sèrie de valoracions d’ítems (no buides) en la vista Principal Usuari. Un cop fetes les valoracions, se selecciona el menú de barres “Usuari” i se selecciona l’opció “Recomanacions” i es redirecciona a la vista Recomanacions Usuari, on s’ha de seleccionar com a mètode de recomanació “Content Based” i finalment prémer el botó “Generar”. Un cop generades les recomanacions, tancar sessió i iniciar sessió amb un compte d’administrador (per defecte, està el admin | admin) i anar a la barra “Administrar”, seleccionar l’opció “Recomanacions” i introduir l’identificador de l’usuari “Jiabo” (es pot comprovar al fitxer user.csv) per generar el DCG.
+- Valors d'entrada:
+   Perfil usuari creat (usuari: "Jiabo" / contrasenya: “123”)
+   Usuari a recomanar: “Jiabo”
+   Valoracions fetes:
+	Item amb ID: 1909 (Don Juan DeMarco), valoració: 3.7
+	Item amb ID: 628 (Interview with the Vampire), valoració: 3.7
+	Item amb ID:  527 (Once Were Warriors), valoració: 4.8
+Output: s’ha obtingut el valor DCG que mesura la qualitat de les recomanacions.
+Valor de la DCG -> 114.911
+Resultat: Correcte, el programa calcula el valor DCG sense problemes

@@ -1,0 +1,14 @@
+-----------------------------
+DESCRIPCIO DELS CONTINGUTS
+-----------------------------
+- DOCS: Directori que conte la documentacio demanada per l'entrega
+- EXE: Directori que conte l'autoexecutable del programa final en format .jar.
+- DATA: Directori amb fitxers de dades d'exemple.
+- compilar.bat: Fitxer executable que permet compilar els drivers en .class. S'ha d'executar des de la terminal, de la forma 'compilar.bat argument'. Accepta els següents arguments:
+  \
+   | all: Compila el programa en fitxers .class
+   | run: Executa el programa (primer s'ha d'executar all)
+   | clean: Elimina tots els .class creats
+  /
+- G5-3.txt: Fitxer requerit amb la informacio del grup
+- index.txt. Aquest fitxer

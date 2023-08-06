@@ -1,0 +1,14 @@
+Joc de prova 16
+
+Descripció: Cas d'ús on es carreguen les valoracions d’un fitxer
+Objectiu: Provar que les valoracions es carreguen correctament
+Elements integrats a la prova: CtrlPresentacio, VistaCarregarFitxers (Presentació), VistaIniciarSessio (Presentació), 
+	VistaPrincipalUsuari (Presentació), VistaLlistaItem (Presentació), CtrlDomini, CtrlValoracio (Domini)
+Fitxers utilitzats en la prova: recommendations.csv
+Descripció de l'estat/escenari del sistema: El sistema està acabat d’inicialitzar, tenim un usuari de tipus client creat,
+	i tenim el conjunt d’ítems inicialitzat.
+Input: Es prem al botó “Fitxer” a la barra superior, i seleccionem l’opció “Carregar dades de fitxer”. Seguidament,
+	seleccionem l’opció “Carregar valoracions”, i cerquem el fitxer que volem.
+Output: Després de carregar les recomanacions, es mostra el missatge “n valoracions carregades correctament”.
+Resultat: Correcte, es carreguen les valoracions del fitxer, i podem veure com els algoritmes de recomanació mostren 
+	nous resultats.

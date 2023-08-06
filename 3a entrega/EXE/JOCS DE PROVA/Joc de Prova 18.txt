@@ -1,0 +1,14 @@
+Joc de prova 18
+
+Descripció: Cas d'ús on es carreguen tots els fitxers útils per al programa, d’una mateixa carpeta, 
+	és a dir: usuaris, valoracions, items i recomanacions. Per a restaurar l’estat sencer del programa
+Objectiu: provar que tots els fitxers es carreguen correctament
+Elements integrats a la prova: CtrlPresentacio, VistaCarregarFitxers (Presentació), VistaIniciarSessio (Presentació),
+	VistaPrincipalUsuari (Presentació), VistaLlistaItem (Presentació), CtrlDomini, CtrlRecomanacio (Domini),
+	CtrlValoracio (Domini), CtrlItem (Domini), CtrlUsuari (Domini), Client (Domini) i Administrador (Presentació)
+Fitxers utilitzats en la prova: ratings.db.csv, items.csv, ratings.test.csv, users.csv
+Descripció de l'estat/escenari del sistema: El sistema està acabat d’inicialitzar
+Input: Es prem al botó “Fitxer” a la barra superior, i seleccionem l’opció “Carregar dades de fitxer”.
+	Seguidament, seleccionem l’opció “Carregar des de carpeta”, i cerquem la carpeta que conté tots els fitxers mencionats.
+Output: Després de carregar els fitxers, ens mostrarà un missatge indicant que la càrrega ha estat exitosa
+Resultat: Correcte, es carrega un estat anterior del programa i es pot treballar des del punt en què es va guardar.

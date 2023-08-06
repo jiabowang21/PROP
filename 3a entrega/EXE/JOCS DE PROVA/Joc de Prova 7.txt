@@ -1,0 +1,46 @@
+Joc de prova 7
+Descripció: Cas d'ús on es veu la informació d’un Ítem
+Objectiu: provar que es pot veure els atributs de l’ítem
+Elements integrats a la prova: CtrlPresentacio, VistaPrincipalUsuari (Presentació), VistaUnItem (Presentació), CtrlDomini, CtrlItems (Domini), Item (Domini), TipusItem (Domini), Atribut (Domini)
+Fitxers utilitzats en la prova: Movielens 250 “items.csv” “users.csv”
+Descripció de l'estat/escenari del sistema: S’han carregat prèviament els fitxers de dades i el sistema té un usuari “pau” i contrasenya “123”
+Input: S’inicia sessió al sistema i es clica al botó “Informació” del primer Ítem que es mostra.
+Valors d’entrada: 
+	Usuari: “pau”
+	Contrasenya: “123”
+Output: El nom de la pel·lícula i una llista amb tots els atributs, classificats segons booleans, numèrics i categòrics.
+Valors de sortida:
+Cutthroat Island
+
+ItemID 1408
+
+Atributs booleans: 
+adult->false
+
+Atributs numèrics: 
+revenue->1.0017322E7
+popularity->7.284477
+vote_average->5.7
+runtime->119.0
+vote_count->137.0
+budget->9.8E7
+
+Atributs categòrics: 
+overview->Morgan Adams and her slave, William Shaw, are on a quest to recover the three portions of a treasure map. Unfortunately, the final portion is held by her murderous uncle, Dawg. Her crew is skeptical of her leadership abilities, so she must complete her quest before they mutiny against her. This is made yet more difficult by the efforts of the British crown to end her pirate raids.
+original_language->en
+original_title->Cutthroat Island
+keywords->exotic islandtreasuremapshipscalppirate
+imdb_id->tt0112760
+video->False
+title->Cutthroat Island
+poster_path->/odM9973kIv9hcjfHPp6g6BlyTIJ.jpg
+spoken_languages->enla
+production_companies->Le Studio Canal+Laurence Mark ProductionsMetro-Goldwyn-Mayer (MGM)Carolco Pictures
+release_date->1995-12-22
+genres->ActionAdventure
+belongs_to_collection-> 
+production_countries-> 
+tagline->The Course Has Been Set. There Is No Turning Back. Prepare Your Weapons. Summon Your Courage. Discover the Adventure of a Lifetime!
+homepage-> 
+status->Released
+Resultat: Correcte, la informació que es mostra és la que conté l’ítem

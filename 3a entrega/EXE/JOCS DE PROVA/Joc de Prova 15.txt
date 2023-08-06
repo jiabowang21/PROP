@@ -1,0 +1,12 @@
+Joc de prova 15
+
+Descripció: Cas d'ús on es carreguen els ítems d’un fitxer
+Objectiu: provar que els ítems es carreguen correctament
+Elements integrats a la prova: CtrlPresentacio, VistaCarregarFitxers (Presentació), VistaIniciarSessio (Presentació),
+	VistaPrincipalUsuari (Presentació), VistaLlistaItem (Presentació), CtrlDomini, CtrlItem (Domini)
+Fitxers utilitzats en la prova: items.csv
+Descripció de l'estat/escenari del sistema: El sistema està acabat d’inicialitzar, i tenim un usuari de tipus client creat
+Input: Es prem al botó “Fitxer” a la barra superior, i seleccionem l’opció “Carregar dades de fitxer”. Seguidament, 
+	seleccionem l’opció “Carregar ítems”, i cerquem el fitxer que volem.
+Output: Després de carregar els ítems, es mostra el missatge “n ítems carregats correctament”.
+Resultat: Correcte, es carreguen els ítems del fitxer, i podem iniciar sessió amb un nou usuari i veure els ítems carregats.

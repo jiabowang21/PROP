@@ -1,0 +1,43 @@
+Joc de prova 1
+Descripció: Cas d'ús de recomanació d'ítems a un usuari mitjançant Content Based Filtering (CBF).
+Objectiu: provar que la recomanació usant l'estratègia CBF funciona.
+Elements integrats a la prova: EstrategiaRecomanacio (domini), DistItem (domini), ConjuntRecomanacions (domini), CtrlRecomanacio (domini), Recomanacio (domini), Valoracio (domini), CtrlValoracio (domini), Item (domini), CtrlItems (domini), Item (domini), TipusItem (domini), Atribut (domini), VistaRecomanacionsUsuari (presentació), CtrlPersistencia (persistència) i FileIO (persistència).
+Fitxers utilitzats en la prova: movielens 750 "items.csv" i "ratings.db.csv"
+Descripció de l'estat/escenari del sistema: Es carrega el sistema amb un volum "mitjà" d'ítems i valoracions (750 items i aproximadament 211717 valoracions) de la carpeta movielens 750.
+Input: Inicialment, a la vista d’iniciar sessió, se selecciona el menú de barres “Fitxer” i es selecciona l’opció “Carregar dades de fitxer…” i es carreguen les dades movielens 750. 
+A continuació es crea un nou usuari, s’inicia sessió, es fa una sèrie de valoracions d’ítems (no buides) en la vista Principal Usuari. Un cop fetes les valoracions, se selecciona el menú de barres “Usuari” i se selecciona l’opció “Recomanacions” i es redirecciona a la vista Recomanacions Usuari, on s’ha de seleccionar com a mètode de recomanació “Content Based” i finalment prémer el botó “Generar”.
+- Valors d'entrada:
+   Perfil usuari creat (usuari: "Jiabo" / contrasenya: “123”)
+   Usuari a recomanar: “Jiabo”
+   Valoracions fetes:
+	Item amb ID: 880 (Antonia), valoració: 4.0
+	Item amb ID: 524 (Casino), valoració: 5.0
+	Item amb ID: 1408 (Cutthroat Island), valoració: 0.0
+	Item amb ID: 1909 (Don Juan DeMarco), valoració: 3.5
+Output: s’ha obtingut una llista ordenada de les 10 millors recomanacions per l’usuari “Jiabo”. 
+- Valors de sortida:
+Item amb ID: 232 (Rumble Fish)
+Item amb ID: 507 (Killing Zoe)
+Item amb ID:  111 (Scarface)
+Item amb ID: 16 (Dancer in the Dark)
+Item amb ID: 2116 (Out of Time)
+Item amb ID: 2118 (L.A. Confidential)
+Item amb ID: 247 (The Killing)
+Item amb ID: 186 (Lucky Number Slevin)
+Item amb ID: 203 (Mean Streets)
+Item amb ID: 1213 (The Talented Mr. Ripley) 
+Resultat: Correcte, ja que de les recomanacions obtingudes podem veure que la majoria són  pel·lícules (ítems) de gèneres de crime o drama, perquè dintre dels ítems que li han agradat, casino és el que ha valorat amb la puntuació màxima, per tant, té més pes que els altres, per tant, les recomanacions són més semblants a Casino, que té precisament com a gènere Drama i Crime.
+(pel·lícula valorada) Antonia: Drama;Comedy -> 4.0
+(pel·lícula valorada) Casino: Drama;Crime -> 5.0
+(pel·lícula valorada) Cutthroat Island: no agradat
+(pel·lícula valorada) Don Juan DeMarco: Romance;Drama;Comedy -> 3.5
+(pel·lícula recomanada) Rumble Fish: Action;Adventure;Crime;Drama;Romance
+(pel·lícula recomanada) Killing Zoe: Action;Crime;Drama;Thriller
+(pel·lícula recomanada) Scarface:  Action;Crime;Drama;Thriller
+(pel·lícula recomanada) Dancer in the Dark: Drama;Crime;Music
+(pel·lícula recomanada) Out of the Time: Thriller;Crime;Drama
+(pel·lícula recomanada) L.A. Confidential: Crime;Drama;Mystery;Thriller
+(pel·lícula recomanada) The Killing: Drama;Action;Thriller;Crime
+(pel·lícula recomanada) Lucky Number Slevin: Drama;Thriller;Crime;Mystery
+(pel·lícula recomanada) Mean Streets: Drama;Crime
+(pel·lícula recomanada) The Talented Mr. Ripley: Thriller;Crime;Drama

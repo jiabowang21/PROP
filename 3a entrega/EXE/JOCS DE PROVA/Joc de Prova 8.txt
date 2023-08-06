@@ -1,0 +1,12 @@
+Joc de prova 8
+Descripció: Cas d'ús on s’inicia sessió amb un usuari ja creat
+Objectiu: provar que es pot iniciar sessió correctament
+Elements integrats a la prova: CtrlPresentacio, VistaIniciarSessio (Presentació), CtrlDomini, CtrlUsuari (Domini), Client (Domini)
+Fitxers utilitzats en la prova: “users.csv”
+Descripció de l'estat/escenari del sistema: S’han carregat prèviament el fitxer d’usuaris i el sistema té un usuari “pau” i contrasenya “123”
+Input: S’inicia sessió al sistema indicant l’usuari i la contrasenya, i prement al botó “Iniciar sessió”
+Valors d’entrada: 
+	Usuari: “pau”
+	Contrasenya: “123”
+Output: El sistema inicia sessió correctament i redirigeix a l’usuari a la pantalla principal
+Resultat: Correcte, s’inicia sessió sense cap incidència

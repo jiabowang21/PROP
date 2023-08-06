@@ -1,0 +1,19 @@
+Joc de prova 10
+Descripció: Cas d’ús que llista els usuaris registrats al sistema
+Objectiu: provar que es llisten els usuaris correctament
+Elements integrats a la prova: CtrlPresentacio, VistaIniciarSessio (Presentació), VistaPrincipalAdmin (Presentació),
+	VistaManagementUsuaris (Presentació), VistaFilaUsuaris (Presentació), CtrlDomini, CtrlUsuari (Domini), Client (Domini),
+	Administrador (Presentació)
+Fitxers utilitzats en la prova: cap
+Descripció de l'estat/escenari del sistema: S’ha registrat prèviament un usuari “pau” amb contrasenya “123” i el sistema 
+	té predefinit l’administrador “admin” amb contrasenya “admin”
+Input: S’introdueix les credencials i s’inicia sessió com a administrador. A la barra superior, cliquem a Administrar i 
+	a Usuaris.
+Valors d’entrada: 
+	Usuari: “admin”
+	Contrasenya: “admin”
+Output: Es llisten tots els usuaris registrats al sistema, amb el nom i el tipus d’usuari que són, Client o Administrador.
+Valors de sortida: 
+	pau	Client
+	admin	Administrador
+Resultat: Correcte, es llisten tots els usuaris del sistema i es mostra correctament el seu tipus

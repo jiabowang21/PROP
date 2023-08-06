@@ -1,0 +1,19 @@
+Joc de Prova 11
+
+Descripció: Cas d’ús que afegeix un usuari
+Objectiu: provar que es creen els usuaris correctament
+Elements integrats a la prova: CtrlPresentacio, VistaIniciarSessio (Presentació), VistaPrincipalAdmin (Presentació), VistaManagementUsuaris (Presentació), VistaFilaUsuaris (Presentació), CtrlDomini, CtrlUsuari (Domini), Client (Domini), Administrador (Presentació)
+Fitxers utilitzats en la prova: cap
+Descripció de l'estat/escenari del sistema: El sistema té predefinit l’administrador “admin” amb contrasenya “admin”
+Input: S’introdueix les credencials i s’inicia sessió com a administrador. A la barra superior, cliquem a Administrar i a Usuaris. Clica al botó de Crear usuari de la barra inferior. Indicar Usuari i Contrasenya de l’usuari a crear, i el tipus d’usuari que volem, per exemple Administrador.
+Valors d’entrada: 
+    Usuari: “admin”
+    Contrasenya: “admin”
+    Usuari: “admin2”
+    Contrasenya: “test”
+    Tipus: Administrador
+Output: El sistema ens notifica que l’Usuari s’ha registrat correctament i ens redirigeix a la pestanya on podem veure llistats tots els usuaris del sistema, l’administrador predefinit i el que acabem de crear.
+Valors de sortida: 
+    admin        Administrador
+    admin2        Administrador
+Resultat: Correcte, es crea correctament el nou administrador, es llisten tots els usuaris del sistema i es mostra correctament el seu tipus.

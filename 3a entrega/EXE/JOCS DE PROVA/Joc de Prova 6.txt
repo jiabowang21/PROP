@@ -1,0 +1,11 @@
+Joc de prova 6
+Descripció: Cas d'ús on es valora un conjunt d'ítems.
+Objectiu: provar que la funcionalitat de valorar ítems funciona correctament
+Elements integrats a la prova: CtrlPresentacio, VistaPrincipal (Presentació), VistaLlistaItems (Presentació) , CtrlDomini, CtrlValoracio (Domini), Valoracio (Domini)
+Fitxers utilitzats en la prova: Fitxer d’items de 750 elements de series
+Descripció de l'estat/escenari del sistema: Existeix un usuari sense privilegis d’administrador
+Input: Iniciem sessió amb un usuari prèviament creat, sense privilegis d’administrador.
+Seguidament, carreguem el fitxer d’items: ‘Fitxer’->’Carregar dades de fitxer…’->’Carregar items’.
+En la nova llista que ens apareixerà, ens quedem amb un parell ítems que vulguem valorar, introduïm un valor amb la barra i pitgem sobre el botó valorar.
+Output: Si tornem a carregar els Ítems podrem observar com les valoracions segueixen allà, indicant que les operacions s’han realitzat correctament.
+Resultat: Correcte, el programa fa la tasca d’emmagatzemar les valoracions correctament.

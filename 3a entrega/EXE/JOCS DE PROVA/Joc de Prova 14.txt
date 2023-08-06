@@ -1,0 +1,13 @@
+Joc de prova 14
+
+Descripció: Cas d'ús on es carreguen els usuaris d’un fitxer
+Objectiu: provar que els usuaris es carreguen correctament
+Elements integrats a la prova: CtrlPresentacio, VistaCarregarFitxers (Presentació), 
+	VistaIniciarSessio (Presentació), CtrlDomini, CtrlUsuari (Domini), Client (Domini), Administrador (Presentació)
+Fitxers utilitzats en la prova: users.csv
+Descripció de l'estat/escenari del sistema: El sistema està acabat d’inicialitzar
+Input: Es prem al botó “Fitxer” a la barra superior, i seleccionem l’opció “Carregar dades de fitxer”. 
+	Seguidament, seleccionem l’opció “Carregar usuaris”, i cerquem el fitxer que volem.
+Output: Després de carregar els usuaris, es mostra el missatge “n usuaris carregats correctament”.
+Resultat: Correcte, es carreguen els usuaris del fitxer, i podem iniciar sessió amb tots ells.
+

@@ -1,0 +1,14 @@
+Joc de prova 17
+
+Descripció: Cas d'ús on es carreguen les recomanacions d’un fitxer
+Objectiu: provar que les recomanacions es carreguen correctament
+Elements integrats a la prova: CtrlPresentacio, VistaCarregarFitxers (Presentació), VistaIniciarSessio (Presentació),
+	VistaPrincipalUsuari (Presentació), VistaLlistaItem (Presentació), CtrlDomini, CtrlRecomanacio (Domini)
+Fitxers utilitzats en la prova: recomanacions.csv
+Descripció de l'estat/escenari del sistema: El sistema està acabat d’inicialitzar, tenim un usuari de tipus client creat,
+	i tenim el conjunt d’ítems inicialitzat.
+Input: Es prem al botó “Fitxer” a la barra superior, i seleccionem l’opció “Carregar dades de fitxer”. 
+	Seguidament, seleccionem l’opció “Carregar recomanacions”, i cerquem el fitxer que volem.
+Output: Després de carregar les recomanacions, es mostra el missatge “n recomanacions carregats correctament”.
+Resultat: Correcte, es carreguen les recomanacions del fitxer, i podem iniciar sessió amb un nou usuari i 
+	veure les recomanacions carregades.
