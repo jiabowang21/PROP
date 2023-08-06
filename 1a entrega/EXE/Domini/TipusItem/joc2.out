@@ -1,0 +1,131 @@
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] Llegir de teclat o de fitxer? [t/F]
+Escriu el nom dels atributs separats per un espai:
+
+Escriu el valor de cada atribut de l'item en el mateix ordre
+S'ha llegit correctament el primer item del conjunt
+
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] ||Atributs booleans: |boolea->false||Atributs numèrics: |numeric->123.0||Atributs categòrics: |categoric->abc||
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] Introdueix el nom de l'atribut a afegir: 
+Introdueix el número del tipus d'atribut: (0-Booleà, 1-Numeric, 2-Categòric)
+L'atribut s'ha inserit correctament
+
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] Introdueix el nom de l'atribut a modificar: 
+Introdueix el nou valor: 
+L'atribut s'ha modificat correctament
+
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] ||Atributs booleans: |boolea->false|atributNou->false||Atributs numèrics: |numeric->123.0||Atributs categòrics: |categoric->abc||
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] Introdueix el nom de l'atribut a afegir: 
+Introdueix el número del tipus d'atribut: (0-Booleà, 1-Numeric, 2-Categòric)
+L'atribut s'ha inserit correctament
+
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] Introdueix el nom de l'atribut a modificar: 
+Introdueix el nou valor: 
+L'atribut s'ha modificat correctament
+
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] ||Atributs booleans: |boolea->false|atributNou->false||Atributs numèrics: |atributNou2->1234567.0|numeric->123.0||Atributs categòrics: |categoric->abc||
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] Introdueix el nom de l'atribut a afegir: 
+Introdueix el número del tipus d'atribut: (0-Booleà, 1-Numeric, 2-Categòric)
+L'atribut s'ha inserit correctament
+
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] Introdueix el nom de l'atribut a modificar: 
+Introdueix el nou valor: 
+L'atribut s'ha modificat correctament
+
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] ||Atributs booleans: |boolea->false|atributNou->false||Atributs numèrics: |atributNou2-> |numeric->123.0||Atributs categòrics: |categoric->abc|atributNou3->||
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] 

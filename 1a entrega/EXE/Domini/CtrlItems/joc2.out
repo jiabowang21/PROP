@@ -1,0 +1,206 @@
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] Llegir de teclat o de fitxer? [t/F]
+Escriu el nom dels atributs separats per un espai:
+
+Escriu el valor de cada atribut de l'item en el mateix ordre, per parar, escriu STOP
+Escriu el valor de cada atribut de l'item en el mateix ordre, per parar, escriu STOP
+Escriu el valor de cada atribut de l'item en el mateix ordre, per parar, escriu STOP
+Escriu el valor de cada atribut de l'item en el mateix ordre, per parar, escriu STOP
+Escriu el valor de cada atribut de l'item en el mateix ordre, per parar, escriu STOP
+S'han llegit correctament 4 items
+
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] ------------------
+||ItemID 123||Atributs booleans: |boolea->false||Atributs numèrics: |numeric->123.0||Atributs categòrics: |categoric->abc|||
+------------------
+||ItemID 234||Atributs booleans: |boolea->true||Atributs numèrics: |numeric->345.0||Atributs categòrics: |categoric->fbsdf|||
+------------------
+||ItemID 256||Atributs booleans: |boolea->false||Atributs numèrics: |numeric->45234.0||Atributs categòrics: |categoric->sasdf|||
+------------------
+||ItemID 54||Atributs booleans: |boolea->false||Atributs numèrics: |numeric->34.0||Atributs categòrics: |categoric->sd|||
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] Introdueix la posició de l'item a llegir, segons l'ordre llegit valor entre 1 i 4
+||ItemID 123||Atributs booleans: |boolea->false||Atributs numèrics: |numeric->123.0||Atributs categòrics: |categoric->abc|||
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] A continuació has d'escriure els valors dels atributs en el seguent ordre, separats per un espai: 
+ id categoric numeric boolea
+L'item s'ha afegit al conjunt correctament
+
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] Introdueix identificador de l'item: 
+Introdueix en nom de l'atribut de l'item: 
+Introdueix el nou valor de l'atribut: 
+Modificació realitzada correctament
+
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] Introdueix la posició de l'item a llegir, segons l'ordre llegit valor entre 1 i 5
+||ItemID 123||Atributs booleans: |boolea->false||Atributs numèrics: |numeric->456.0||Atributs categòrics: |categoric->abc|||
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] Introdueix identificador de l'item: 
+Introdueix en nom de l'atribut de l'item: 
+Introdueix el nou valor de l'atribut: 
+Modificació realitzada correctament
+
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] Introdueix la posició de l'item a llegir, segons l'ordre llegit valor entre 1 i 5
+||ItemID 3456||Atributs booleans: |boolea->false||Atributs numèrics: |numeric->4563.0||Atributs categòrics: |categoric->sas|||
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] El conjunt d'Items té una mida de 5 items
+
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] Introdueix identificador de l'item: 
+L'item existix dins del conjunt
+
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] Introdueix identificador de l'item: 
+L'item s'ha esborrat correctament
+
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] Introdueix identificador de l'item: 
+L'item no existeix en el conjunt
+
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] El conjunt d'Items té una mida de 4 items
+
+Driver Controlador d'Items
+Que vols fer?
+1. Carregar conjunt d'items
+2. Escriure TOTS els items carregats
+3. Escriure un item
+4. Afegir un item
+5. Modifica un item
+6. Esborra un item
+7. Comprova si existeix un item
+8. Imprimeix la mida del conjunt d'Items
+9. Sortir
+[opció] 

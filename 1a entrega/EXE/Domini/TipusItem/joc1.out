@@ -1,0 +1,65 @@
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] Llegir de teclat o de fitxer? [t/F]
+Escriu el nom dels atributs separats per un espai:
+
+Escriu el valor de cada atribut de l'item en el mateix ordre
+S'ha llegit correctament el primer item del conjunt
+
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] ||Atributs booleans: |boolea->false||Atributs numèrics: |numeric->123.0||Atributs categòrics: |categoric->abc||
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] Introdueix el nom de l'atribut a consultar: 
+L'atribut és categòric
+
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] Introdueix el nom de l'atribut a consultar: 
+L'atribut és numèric
+
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] Introdueix el nom de l'atribut a consultar: 
+L'atribut és booleà
+
+Driver de TipusItem
+Que vols fer?
+1. Carregar un TipusItem
+2. Imprimir Atributs
+3. Obtenir tipus d'un atribut
+4. Afegeix un atribut
+5. Modifica un atribut
+6. Sortir
+[opció] 

@@ -1,0 +1,12 @@
+Que vols fer?
+1. Parse csv
+2. Convertir a csv
+3. Sortir
+[opcio] Introdueix els atributs separats per linia, acabats amb la paraula quit
+CSV:
+Hello,World,"This,is","a ""test"""
+Que vols fer?
+1. Parse csv
+2. Convertir a csv
+3. Sortir
+[opcio] 

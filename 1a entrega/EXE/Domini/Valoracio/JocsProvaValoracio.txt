@@ -1,0 +1,7 @@
+Prova 1
+Descripció: Instanciació d'un objecte de la classe Valoracio, classe a provar: Valoracio
+Objectius: Comprovar que els atributs s'instancien correctament
+Drivers: ValoracioDriver
+Entrada: joc1.in
+Sortida: joc1.out
+Resultat de la prova: ok

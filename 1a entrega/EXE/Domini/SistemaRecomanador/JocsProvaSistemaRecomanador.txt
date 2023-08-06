@@ -1,0 +1,15 @@
+Prova 1
+Descripció: Càlcul de les recomanacions aplicant Collaborative Filtering, classe a provar: SistemaRecomanador
+Objectius: calcular les recomanacions mitjançant Collaborative Filtering
+Drivers: SistemaRecomanadorDriver
+Entrada: joc1.in
+Sortida: joc1.out
+Resultat de la prova: ok
+
+Prova 1
+Descripció: Càlcul de les recomanacions aplicant Content Based Filtering, classe a provar: SistemaRecomanador
+Objectius: calcular les recomanacions mitjançant Content Based Filtering
+Drivers: SistemaRecomanadorDriver
+Entrada: joc1.in
+Sortida: joc1.out
+Resultat de la prova: ok

@@ -1,0 +1,28 @@
+-----------------------------
+DESCRIPCIO DELS CONTINGUTS
+-----------------------------
+- DOCS: Directori que conte la documentacio demanada per l'entrega
+- EXE: Directori que conte els drivers en format .jar dels drivers. Aquests s'han d'executar des de la seva carpeta, ja que requereixen de fitxers de dades externs amb un path relatiu.
+- FONTS: Directori que conte el codi font de l'entrega
+- TESTS: Directori que conte els test JUnit requerits per aquesta entrega
+- compilar.bat: Fitxer executable que permet compilar els drivers en .class. S'ha d'executar des de la terminal, de la forma 'compilar.bat argument'. Accepta els següents arguments:
+  \
+   | CsvUtilsDriver
+   | FileIODriver
+   | CtrlPersistenciaDriver
+   | DistanciaDriver
+   | AtributDriver
+   | CtrlItemsDriver
+   | ItemDriver
+   | TipusItemDriver
+   | ConjuntRecomanacionsDriver
+   | CtrlRecomanacioDriver
+   | RecomanacioDriver
+   | SistemaRecomanadorDriver
+   | CtrlUsuariDriver
+   | CtrlValoracioDriver
+   | ValoracioDriver
+   | clean: Elimina tots els .class creats
+  /
+- G5-3.txt: Fitxer requerit amb la informacio del grup
+- index.txt. Aquest fitxer

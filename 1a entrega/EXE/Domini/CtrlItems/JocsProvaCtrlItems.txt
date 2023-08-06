@@ -1,0 +1,15 @@
+Prova 1
+Descripció: Creació de diversos Items per inserirlos al controlador, classe a provar: Ctrlitems Item TipusItem Atribut AtribCategoric AtribBoolea AtribNumeric
+Objectius: Comprovar que la classe pot manegar correctament diversos items
+Drivers: CtrlItemsDriver
+Entrada: joc1.in
+Sortida: joc1.out
+Resultat de la prova: ok
+
+Prova 2
+Descripció: Modificació de diversos atributs dels items del conjunt i eliminació d'items, classe a provar: Item TipusItem Atribut AtribCategoric AtribBoolea AtribNumeric
+Objectius: Modificar diversos atributs d'un item ja instanciat i eliminar items correctament del conjunt
+Drivers: CtrlItemsDriver
+Entrada: joc2.in
+Sortida: joc2.out
+Resultat de la prova: ok

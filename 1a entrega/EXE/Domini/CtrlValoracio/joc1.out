@@ -1,0 +1,35 @@
+Driver Controlador de Valoracions
+Que vols fer?
+1. Carregar històric de valoracions
+2. Valorar un item
+3. Imprimir valoracions d'un usuari
+4. Sortir
+[opció]
+S'han carregat correctament l'històric de valoracions
+
+Driver Controlador de Valoracions
+Que vols fer?
+1. Carregar històric de valoracions
+2. Valorar un item
+3. Imprimir valoracions d'un usuari
+4. Sortir
+[opció] 
+A continuació indica l'identificador de l'usuari:
+
+User ID 50, Item ID 296, Valoracio 3.0
+User ID 50, Item ID 780, Valoracio 2.5
+User ID 50, Item ID 1213, Valoracio 4.0
+User ID 50, Item ID 318, Valoracio 4.0
+User ID 50, Item ID 858, Valoracio 4.5
+User ID 50, Item ID 480, Valoracio 3.0
+User ID 50, Item ID 527, Valoracio 4.0
+User ID 50, Item ID 2959, Valoracio 3.5
+
+
+Driver Controlador de Valoracions
+Que vols fer?
+1. Carregar històric de valoracions
+2. Valorar un item
+3. Imprimir valoracions d'un usuari
+4. Sortir
+[opció]

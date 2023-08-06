@@ -1,0 +1,59 @@
+Driver Sistema Recomanador
+Que vols fer?
+1. Aplicar ContentBased Filtering
+2. Aplicar Collaborative Filtering
+3. Sortir
+[Opcio] Llegir de teclat o de fitxer? [t/F]
+
+Escriu un enter que indiqui quants clients hi haura :
+
+Escriu l'id del client 
+Escriu un enter que indiqui quantes valoracions te el client 1 :
+A continuacio escriu les n valoracions de la segent manera, ID item seguit d'un espai i despres la valoracio 
+No es pot fer mes d'una valoracio pel mateix ID de item
+Escriu l'id del client 
+Escriu un enter que indiqui quantes valoracions te el client 1 :
+A continuacio escriu les n valoracions de la segent manera, ID item seguit d'un espai i despres la valoracio 
+No es pot fer mes d'una valoracio pel mateix ID de item
+Valoracions dels clients carregats
+Escriu un enter que indiqui quants items hi haura:
+Escriu el nom dels atributs de l'item separats per un espai (ha d'incloure un atribut que sigui id de l'item):
+Escriu el valor de cada atribut de l'item en el mateix ordre
+Escriu el valor de cada atribut de l'item en el mateix ordre
+Items carregats 2
+Proporciona el id del client al qui li vols fer les recomanacions
+Recomanacions fetes per l'algorisme ContentBased Filtering al client 1
+Driver Sistema Recomanador
+Que vols fer?
+1. Aplicar ContentBased Filtering
+2. Aplicar Collaborative Filtering
+3. Sortir
+[Opcio] Llegir de teclat o de fitxer? [t/F]
+
+Escriu un enter que indiqui quants clients hi haura :
+
+Escriu l'id del client 
+Escriu un enter que indiqui quantes valoracions te el client 1 :
+A continuacio escriu les n valoracions de la segent manera, ID item seguit d'un espai i despres la valoracio 
+No es pot fer mes d'una valoracio pel mateix ID de item
+Escriu l'id del client 
+Escriu un enter que indiqui quantes valoracions te el client 2 :
+A continuacio escriu les n valoracions de la segent manera, ID item seguit d'un espai i despres la valoracio 
+No es pot fer mes d'una valoracio pel mateix ID de item
+Valoracions dels clients carregats
+Escriu un enter que indiqui quants items hi haura:
+Escriu el nom dels atributs de l'item separats per un espai (ha d'incloure un atribut que sigui id de l'item):
+Escriu el valor de cada atribut de l'item en el mateix ordre
+Escriu el valor de cada atribut de l'item en el mateix ordre
+Escriu el valor de cada atribut de l'item en el mateix ordre
+Items carregats 3
+Proporciona el id del client al qui li vols fer les recomanacions
+Recomanacions fetes per l'algorisme ContentBased Filtering al client 1
+Item 2 Valoracio 3.75
+Item 3 Valoracio 1.25
+Driver Sistema Recomanador
+Que vols fer?
+1. Aplicar ContentBased Filtering
+2. Aplicar Collaborative Filtering
+3. Sortir
+[Opcio] 

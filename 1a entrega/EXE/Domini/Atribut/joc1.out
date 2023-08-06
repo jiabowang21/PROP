@@ -1,0 +1,25 @@
+Driver Classe Atribut
+Que vols fer?
+1. Carregar els tres atributs de cada tipus del primer item del conjunt d'items
+2. Imprimir Atributs
+3. Sortir
+[opció] Llegir de teclat o de fitxer? [t/F]
+Escriu el nom dels atributs separats per un espai:
+
+Escriu el valor de cada atribut de l'item en el mateix ordre
+S'ha llegit correctament el primer item del conjunt
+
+Driver Classe Atribut
+Que vols fer?
+1. Carregar els tres atributs de cada tipus del primer item del conjunt d'items
+2. Imprimir Atributs
+3. Sortir
+[opció] Atribut Boolean: inicialitzat->true|valor->false
+Atribut Categòric: inicialitzat->true|valor->hola
+Atribut Numeric: inicialitzat->true|valor->123.0
+Driver Classe Atribut
+Que vols fer?
+1. Carregar els tres atributs de cada tipus del primer item del conjunt d'items
+2. Imprimir Atributs
+3. Sortir
+[opció] 

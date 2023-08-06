@@ -1,0 +1,13 @@
+Que vols fer?
+1. Parse csv
+2. Convertir a csv
+3. Sortir
+[opcio] Llegir de teclat o de fitxer? [t/F] Introdueix les linies del fitxer a parsejar, finalitzant amb 'quit'
+0,4. | 0 | type_admin | admin
+hello | admin | 
+1,4. | 185833 | type_client | d"e"i | 1234 | 
+Que vols fer?
+1. Parse csv
+2. Convertir a csv
+3. Sortir
+[opcio] 

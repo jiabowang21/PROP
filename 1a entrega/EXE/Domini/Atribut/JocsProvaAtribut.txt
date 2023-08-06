@@ -1,0 +1,7 @@
+Prova 1
+Descripció: Instanciació d'un objecte de la classe atribut, classe a provar: Atribut AtribCategoric AtribBoolea AtribNumeric
+Objectius: Comprovar que els atributs s'instancien correctament
+Drivers: domini.item.atributs.AtributDriver
+Entrada: joc1.in
+Sortida: joc1.out
+Resultat de la prova: ok

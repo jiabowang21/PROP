@@ -1,0 +1,52 @@
+Driver Controlador de Recomanacions
+Que vols fer?
+1. Obtenir Recomanacions
+2. Veure les Recomanacions
+3. Avaluar Qualitat de les Recomanacions
+4. Sortir
+[opció]
+A continuació escriu l'identificador de l'usuari:
+
+A continuació indica el sistema recomanador que vols utilitzar:
+1. Collaborative Filtering
+2. Content Based Filtering
+
+S'han obtingut correctament les recomanacions
+
+Driver Controlador de Recomanacions
+Que vols fer?
+1. Obtenir Recomanacions
+2. Veure les Recomanacions
+3. Avaluar Qualitat de les Recomanacions
+4. Sortir
+[opció] 
+A continuació escriu l'identificador de l'usuari:
+
+UserID 1577, Data Sun Nov 21 19:32:29 CET 2021, Estrategia collaborative
+Item ID 912, Valoracio Esperada 4.34375
+Item ID 45722, Valoracio Esperada 4.25
+Item ID 953, Valoracio Esperada 4.2
+Item ID 1266, Valoracio Esperada 4.115384615384615
+Item ID 1387, Valoracio Esperada 4.0625
+Item ID 858, Valoracio Esperada 3.9285714285714284
+Item ID 802, Valoracio Esperada 3.9193548387096775
+Item ID 913, Valoracio Esperada 3.875
+Item ID 74458, Valoracio Esperada 3.875
+Item ID 236, Valoracio Esperada 3.8529411764705883
+Driver Controlador de Recomanacions
+Que vols fer?
+1. Obtenir Recomanacions
+2. Veure les Recomanacions
+3. Avaluar Qualitat de les Recomanacions
+4. Sortir
+[opció] 
+A continuació escriu l'identificador de l'usuari:
+
+La valoració obtinguda per a les recomanacions ha estat: 159.55066073480316
+Driver Controlador de Recomanacions
+Que vols fer?
+1. Obtenir Recomanacions
+2. Veure les Recomanacions
+3. Avaluar Qualitat de les Recomanacions
+4. Sortir
+[opció]

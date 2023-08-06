@@ -1,0 +1,24 @@
+Prova 1
+Descripció: Lectura d'un csv simple
+Objectius: Comprovar que el contingut es parseja correctament
+Drivers: utils.CsvUtilsDriver
+Entrada: joc1.in
+Sortida: joc1.out
+Resultat de la prova: ok
+
+Prova 2
+Descripció: Lectura d'un csv complex
+Objectius: Comprovar que el contingut es parseja correctament
+Drivers: utils.CsvUtilsDriver
+Entrada: joc2.in
+Sortida: joc2.out
+Resultat de la prova: ok
+
+
+Prova 3
+Descripció: Conversio d'un csv
+Objectius: Comprovar que la traducció de columnes a CSV funciona correctament
+Drivers: utils.CsvUtilsDriver
+Entrada: joc3.in
+Sortida: joc3.out
+Resultat de la prova: ok

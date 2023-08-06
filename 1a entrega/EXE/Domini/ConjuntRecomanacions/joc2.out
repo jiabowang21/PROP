@@ -1,0 +1,60 @@
+Driver Conjunt Recomanacions
+Que vols fer?
+1. Obtenir Recomanacions
+2. Avaluar Qualitat Recomanacions
+3. Imprimir Recomanacions
+4. Imprimir Usuari
+5. Imprimir Data
+6. Imprimir Estrategia
+7. Sortir
+[opció]
+A continuació escriu l'identificador de l'usuari:
+
+A continuació indica el sistema recomanador que vols utilitzar:
+1. Collaborative Filtering
+2. Content Based Filtering
+
+Les recomanacions s'han obtingut correctament
+
+Driver Conjunt Recomanacions
+Que vols fer?
+1. Obtenir Recomanacions
+2. Avaluar Qualitat Recomanacions
+3. Imprimir Recomanacions
+4. Imprimir Usuari
+5. Imprimir Data
+6. Imprimir Estrategia
+7. Sortir
+[opció]
+Qualitat Recomanacions: 89.35025409972002
+Driver Conjunt Recomanacions
+Que vols fer?
+1. Obtenir Recomanacions
+2. Avaluar Qualitat Recomanacions
+3. Imprimir Recomanacions
+4. Imprimir Usuari
+5. Imprimir Data
+6. Imprimir Estrategia
+7. Sortir
+[opció]
+UserID 733, Data Sun Nov 21 19:27:36 CET 2021, Estrategia contentBased
+Item ID 750, Valoracio Esperada 1.0499999999999998
+Item ID 466, Valoracio Esperada 0.9999999999999998
+Item ID 1732, Valoracio Esperada 0.9999999999999998
+Item ID 5060, Valoracio Esperada 0.9999999999999998
+Item ID 2005, Valoracio Esperada 0.9999999999999998
+Item ID 6373, Valoracio Esperada 0.9999999999999998
+Item ID 2006, Valoracio Esperada 0.9999999999999998
+Item ID 2791, Valoracio Esperada 0.9999999999999998
+Item ID 3033, Valoracio Esperada 0.9999999999999998
+Item ID 1485, Valoracio Esperada 0.9999999999999998
+Driver Conjunt Recomanacions
+Que vols fer?
+1. Obtenir Recomanacions
+2. Avaluar Qualitat Recomanacions
+3. Imprimir Recomanacions
+4. Imprimir Usuari
+5. Imprimir Data
+6. Imprimir Estrategia
+7. Sortir
+[opció]

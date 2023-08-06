@@ -1,0 +1,15 @@
+Prova 1
+Descripció: Carrega de valoracions, classe a provar: CtrlValoracio Valoracio
+Objectius: Comprovar que les valoracions es carreguen correctament
+Drivers: CtrlValoracioDriver
+Entrada: joc1.in
+Sortida: joc1.out
+Resultat de la prova: ok
+
+Prova 2
+Descripció: Creació d'una valoracio, classe a provar: CtrlValoracio Valoracio
+Objectius: Comprovar que es crea correctament la valoracio
+Drivers: CtrlValoracioDriver
+Entrada: joc2.in
+Sortida: joc2.out
+Resultat de la prova: ok

@@ -1,0 +1,15 @@
+Prova 1
+Descripció: Inici de sessió d'un usuari, obtenir usuari iniciat i tancar sessió
+Objectius: Comprovar que els usuaris es creen i s'inicien correctament
+Drivers: domini.CtrlUsuari
+Entrada: joc1.in
+Sortida: joc1.out
+Resultat de la prova: ok
+
+Prova 2
+Descripció: Intent de crear un usuari existent i obtenir usuari iniciar quan no hi ha cap
+Objectius: Comprovar que les excepcions s'intercepten correctament
+Drivers: domini.CtrlUsuari
+Entrada: joc2.in
+Sortida: joc2.out
+Resultat de la prova: ok

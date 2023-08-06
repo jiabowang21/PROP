@@ -1,0 +1,34 @@
+1
+t
+id categoric numeric boolea
+123 abc 123 False
+234 fbsdf 345 True
+256 sasdf 45234 False
+54 sd 34 False
+STOP
+2
+3
+1
+4
+3456 sas 4563 True
+5
+123
+numeric
+456
+3
+1
+5
+3456
+boolea
+False
+3
+5
+8
+7
+3456
+6
+3456
+7
+3456
+8
+9

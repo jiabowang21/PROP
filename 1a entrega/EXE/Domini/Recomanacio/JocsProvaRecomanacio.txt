@@ -1,0 +1,7 @@
+Prova 1
+Descripció: Instanciació d'un objecte de la classe Recomanacio, classe a provar: Recomanacio
+Objectius: Comprovar que els atributs s'instancien correctament
+Drivers: RecomanacioDriver
+Entrada: joc1.in
+Sortida: joc1.out
+Resultat de la prova: ok

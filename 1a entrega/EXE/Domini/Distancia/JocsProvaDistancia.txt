@@ -1,0 +1,15 @@
+Prova 1
+Descripció: Càlcul de la distancia entre dos items (2 decimals de precisió), classe a provar: DistItem
+Objectius: calcular la distancia entre dos items segons els seus atributs
+Drivers: DistanciaDriver
+Entrada: joc1.in
+Sortida: joc1.out
+Resultat de la prova: ok
+
+Prova 2
+Descripció: Càlcul de la distancia entre dos clients (2 decimals de precisió), classe a provar: DistClient
+Objectius: calcular la distancia entre dos clients segons les seves valoracions
+Drivers: DistanciaDriver
+Entrada: joc2.in
+Sortida: joc2.out
+Resultat de la prova: ok

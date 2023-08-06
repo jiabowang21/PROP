@@ -1,0 +1,15 @@
+Prova 1
+Descripció: Obtencio de recomanacions amb Collaborative Filtering, classe a provar: CtrlRecomanacio ConjuntRecomanacions Recomanacio
+Objectius: Comprovar que les recomanacions s'obtenen i s'avaluen correctament
+Drivers: CtrlRecomanacioDriver
+Entrada: joc1.in
+Sortida: joc1.out
+Resultat de la prova: ok
+
+Prova 2
+Descripció: Obtencio de recomanacions amb Content Based Filtering, classe a provar: CtrlRecomanacio ConjuntRecomanacions Recomanacio
+Objectius: Comprovar que les recomanacions s'obtenen i s'avaluen correctament
+Drivers: CtrlRecomanacioDriver
+Entrada: joc2.in
+Sortida: joc2.out
+Resultat de la prova: ok

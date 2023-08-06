@@ -1,0 +1,15 @@
+Prova 1
+Descripció: Execució dels diferents tipus de lectures
+Objectius: Comprovar que la lectura de les classes funciona correctament
+Drivers: persistencia.CtrlPersistencia
+Entrada: joc1.in
+Sortida: joc1.out
+Resultat de la prova: ok
+
+Prova 2
+Descripció: Execució dels diferents tipus d'escriptures
+Objectius: Comprovar que la escriptura de les classes funciona correctament.
+Drivers: persistencia.CtrlPersistencia
+Entrada: joc2.in
+Sortida: joc2.out
+Resultat de la prova: ok

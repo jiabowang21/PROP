@@ -1,0 +1,15 @@
+Prova 1
+Descripció: Instanciació d'un objecte de la classe TipusItem, classe a provar: TipusItem Atribut AtribCategoric AtribBoolea AtribNumeric
+Objectius: Comprovar que l'objecte s'instancia correctament i detecta correctament els tipus d'atribut
+Drivers: TipusItemDriver
+Entrada: joc1.in
+Sortida: joc1.out
+Resultat de la prova: ok
+
+Prova 2
+Descripció: Modificació del conjunt, classe a provar: TipusItem Atribut AtribCategoric AtribBoolea AtribNumeric
+Objectius: Afegir i modificar diferents atributs
+Drivers: TipusItemDriver
+Entrada: joc2.in
+Sortida: joc2.out
+Resultat de la prova: ok
